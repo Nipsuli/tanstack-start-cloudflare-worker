@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tanstack-start-cloudflare-worker",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "minify": true,
+  "main": "./.output/server/index.mjs",
+  "assets": { "directory": "./.output/public/", "binding": "ASSETS" },
+  "vars": {
+    "VARIABLE_1": "value 1"
+  }
+}

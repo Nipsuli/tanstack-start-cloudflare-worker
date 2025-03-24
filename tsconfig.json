@@ -1,0 +1,16 @@
+{
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
+  "exclude": [".output/*", ".vinxi/*", ".wrangler/*"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "types": ["vite/client", "@cloudflare/workers-types"],
+    "rootDirs": ["."],
+    "jsx": "react-jsx",
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "baseUrl": "."
+  }
+}
